@@ -9,7 +9,7 @@ import javax.swing.*;
  *
  * @author USER
  */
-public class test2 extends JFrame 
+public class frame_inherit extends JFrame 
 { 
 	JFrame frame; 
 	frame_inherit() 
@@ -25,5 +25,6 @@ public class test2 extends JFrame
 	public static void main(String[] args) 
 	{ 
 		new frame_inherit(); 
+		// TODO code application logic here
 	} 
 } 
