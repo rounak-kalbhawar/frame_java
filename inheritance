@@ -5,6 +5,10 @@
  */
 package com.mycompany.frame;
 import javax.swing.*; 
+/**
+ *
+ * @author USER
+ */
 public class test2 extends JFrame 
 { 
 	JFrame frame; 
