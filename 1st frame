@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.grading;
+package com.mycompany.frame;
 import javax.swing.*; 
 /**
  *
@@ -12,7 +12,7 @@ import javax.swing.*;
 public class frame {
     
 	Jframe frame; 
-	test1() 
+	frame_f1;
 	{ 
 		frame=new JFrame("1st frame"); 
 		 frame.setSize(500, 600); 
@@ -24,7 +24,7 @@ public class frame {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        new test1();
+        new frame_f1();
         // TODO code application logic here
     }
     
