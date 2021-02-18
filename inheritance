@@ -19,7 +19,9 @@ public class test2 extends JFrame
 		setLayout(null); 
 		setVisible(true); 
 	} 
-	
+	 /**
+     * @param args the command line arguments
+     */
 	public static void main(String[] args) 
 	{ 
 		new frame_inherit(); 
