@@ -1,0 +1,17 @@
+import javax.swing.*; 
+public class test2 extends JFrame 
+{ 
+	JFrame frame; 
+	frame_inherit() 
+	{ 
+		setTitle("by inheritance"); 
+		setSize(400, 500); 
+		setLayout(null); 
+		setVisible(true); 
+	} 
+	
+	public static void main(String[] args) 
+	{ 
+		new frame_inherit(); 
+	} 
+} 
