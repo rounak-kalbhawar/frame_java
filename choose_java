@@ -1,0 +1,42 @@
+import java.awt.*;
+import java.awt.event.*;
+class choose extends Frame
+{
+  Checkbox c;
+  TextField tf;
+   choose()
+   {
+ this.addWindowListener( new WindowAdapter()
+  {
+    public void windowClosing(WindowEvent we)
+	{
+	  System.exit(0);
+	}
+	});
+	
+	c=new Checkbox("Languages");
+	tf=new TextField(20);
+	Choice c1=new Choice();
+	c1.setBounds(150,150,100,100);
+	c1.add("Java");
+	c1.add("Python");
+	c1.add("C++");
+	c1.add("Swift");
+	this.add(c);
+	this.add(tf);
+	this.add(c1);
+	this.setLayout(new FlowLayout());
+	
+	
+}
+  public static void main(String [] args)
+  {
+    choose op =new choose();
+	op.setSize(1000,1000);
+	op.setTitle("select the language");
+	op.setVisible(true);
+	
+	
+	}
+	
+}
